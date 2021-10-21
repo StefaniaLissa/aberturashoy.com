@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aberturas Hoy</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/mobile/1.5.0-rc1/jquery.mobile-1.5.0-rc1.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#icon").click(function() {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <label class="logo"
+        ><img
+          id="header-img"
+          src="https://static.wixstatic.com/media/3c659c_58a59754fe0b4381b4ca97098dc097c7~mv2.png/v1/fill/w_80,h_80,al_c,q_85,usm_0.66_1.00_0.01/descarga.webp"
+          alt="logo"
+        />
+        <p id="eslogan">
+          Diseñado por Aberturas Hoy,<br />
+          diseñado para durar.
+        </p>
+        <label id="icon" style="color:#342C2C">
+          <i class="fas fa-bars"></i>
+        </label>
+      </label>
+      <ul>
+        <li><a class="active" href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <section id="background"></section>
+  </body>
+</html>
