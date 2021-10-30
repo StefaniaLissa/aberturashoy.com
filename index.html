@@ -4,19 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Aberturas Hoy</title>
-    <link rel="stylesheet" href="/style.css" />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/mobile/1.5.0-rc1/jquery.mobile-1.5.0-rc1.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("#icon").click(function() {
-          $("ul").toggleClass("show");
-        });
-      });
-    </script>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <nav>
+    <header>
       <label class="logo"
         ><img
           id="header-img"
@@ -27,17 +19,35 @@
           Diseñado por Aberturas Hoy,<br />
           diseñado para durar.
         </p>
-        <label id="icon" style="color:#342C2C">
-          <i class="fas fa-bars"></i>
-        </label>
       </label>
-      <ul>
-        <li><a class="active" href="#">Inicio</a></li>
-        <li><a href="#">Productos</a></li>
-        <li><a href="#">Sobre Nosotros</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-    <section id="background"></section>
+
+      <div class="container">
+        <div class="nav-toggle" id="navToggle">
+          <img
+            id="navClosed"
+            class="navIcon"
+            src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/hamburger.svg"
+            alt="hamburger menu"
+          />
+          <img
+            id="navOpen"
+            class="navIcon hidden"
+            src="https://www.richardmiddleton.me/wp-content/themes/richardcodes/assets/img/close.svg"
+            alt="close hamburger"
+          />
+        </div>
+
+        <nav>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <script src="main.js"></script>
   </body>
 </html>
