@@ -56,6 +56,10 @@
 	
 	<section id="img-vw">
 	  <h2>Diseñado por Aberturas Hoy, diseñado para durar.</h2>
+	  <form action="">
+		<input name="email" id="email" type="email"  class="form-control" placeholder="Ingrese su dirección de correo electrónico" required />
+		<input id="submit" type="submit" value="Comenzar" />
+	  </form>
 	</section>
 
 	<!-- TARJETAS -->
