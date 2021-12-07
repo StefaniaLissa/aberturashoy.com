@@ -9,10 +9,11 @@
     </style>
 	
     <title>Aberturas Hoy</title>
-    <link rel="stylesheet" href="recursos/style.css"/>
+    <link rel="stylesheet" href="../recursos/style.css" />
   </head>
 
-  <body>
+
+  <body class="sobre-nosotros">
     <header>
       <label class="logo"
         ><img
@@ -44,56 +45,32 @@
 
         <nav>
           <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="html/Productos.html">Productos</a></li>
-            <li><a href="html/Sobre-Nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="Productos.html">Productos</a></li>
+            <li><a class="active" href="Sobre-Nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
 			<li><a class="habla" href=https://api.whatsapp.com/send?phone=541132912414>Habla con Abel</a></li>
 			<li><a class="habla" href=https://api.whatsapp.com/send?phone=541158880007>Habla con Carlos</a></li>
           </ul>
         </nav>
       </div>
     </header>
-	
-	<section id="img-vw">
-	  <h2>Diseñado por Aberturas Hoy, diseñado para durar.</h2>
-	  <form action="">
-		<input name="email" id="email" type="email"  class="form-control" placeholder="Ingrese su dirección de correo electrónico" required />
-		<input id="submit" type="submit" value="Comenzar" />
-	  </form>
+
+	<section id="quienes-somos" >
+	  <div>
+		<h1>Quienes Somos</h1>
+		<p>Nuestro nombre es Aberturas Hoy y somos un negocio compuesto por personas innovadoras que siempre miran a futuro. Tenemos el impulso y los medios para actualizar y mejorar su experiencia con nosotros.</p>
+	  </div>
 	</section>
-
-	<!-- TARJETAS -->
-	<section class="container">
-			<div class="tarjeta">
-				<h5>Consulta y contrata profesionales<br>sin pagar de más</h5>
-				<p>
-					Nuestra atención al cliente es totalmente particular, ya que podrás asesorarte directamente con el productor. 
-					Además contamos con diversas redes sociales en las que podrás encontrarnos.
-				</p>
-				<p>
-					Horario de Lunes a Viernes:
-					De 08:00 am a 18:00 pm
-				</p>
-			</div>
-
-			<div class="tarjeta">
-				<h5>Aseguramos nuestros productos,<br>la instalaciones y su satisfacción</h5>
-				<p>
-					Entre los trabajos realizados contamos portones clásicos, portones artísticos, tanto automáticos como manuales o ambos. 
-					Utilizamos herrajes y cerraduras de máxima calidad, así como terminaciones a medida y a gusto de nuestros clientes.
-				</p>
-			</div>
-
-			<div class="tarjeta">
-				<h5>Calidad y experiencia</h5>
-				<p>
-					Es importante entender que nosotros conocemos los problemas y preocupaciones con los que idean los clientes de este mercado.
-					Como la seguridad, la estética y/o condiciones económicas. Para eso, adaptamos nuestra producción a las necesidades de cada uno de nuestros clientes.
-				</p>
-			</div>
+  
+	<section class="img-SN">
+		<div style="display:flex;">
+			<img src="../recursos/abel.jpeg">
+			<img src="../recursos/1.jpg">
+			<img src="../recursos/carlos.jpg">
+			<img src="../recursos/2.jpg">
+		</div>
 	</section>
-	
-	<div class="embedsocial-hashtag" data-ref="6ec706ed0205464ef0f796552e6b4799b1422030"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialHashtagScript"));</script>
 	
 	<footer>
 		<section class="container">
@@ -124,6 +101,6 @@
 		</section>	
 	</footer>
 	
-    <script src="recursos/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
