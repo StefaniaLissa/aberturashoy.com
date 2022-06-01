@@ -204,6 +204,10 @@ li:hover a {
 	margin-top: 20px;
 	}
 
+  #productos #video{
+    width: 100vw;
+  }
+
 }
 
 /* PC*/
